@@ -23,13 +23,14 @@ client = Client(sid, token)
 # https://www.uml.edu/student-dashboard#class-search/search?term=3010&subjects=ACCT&partialCatalogNumber=1234
 # So I copy the parameters onto the end of the first url, and I get this
 # https://www.uml.edu/student-dashboard/api/ClassSchedule/RealTime/Search/?term=3010&subjects=ACCT&partialCatalogNumber=1234
-# and I think that is a valid url. At least it appears to be. IDK try it. I included the urls I used last semester.
+# and I think that is a valid url. At least it appears to be. 
+# IDK try it. I included the urls I used last semester as an example.
 
 search_urls = [
     # College Writing II
     #"https://www.uml.edu/student-dashboard/api/ClassSchedule/RealTime/Search/?term=2930&subjects=ENGL&partialCatalogNumber=1020&meetingTimeModes=1%2C2%2C3&campuses=UMLNORTH"
     #"https://www.uml.edu/student-dashboard/api/ClassSchedule/RealTime/Search/?term=2930&subjects=ENGL&partialCatalogNumber=1020&meetingTimeModes=1%2C2%2C3"
-    "https://www.uml.edu/student-dashboard/api/ClassSchedule/RealTime/Search/?term=2930&subjects=ENGL&partialCatalogNumber=1020&enrollmentStatusMode=1&daySchoolBlackboardEnabledOnly=1"
+    #"https://www.uml.edu/student-dashboard/api/ClassSchedule/RealTime/Search/?term=2930&subjects=ENGL&partialCatalogNumber=1020&enrollmentStatusMode=1&daySchoolBlackboardEnabledOnly=1"
 ]
 query_mins = 3
 max_tries  = 4
